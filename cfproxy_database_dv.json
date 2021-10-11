@@ -9,14 +9,6 @@
       "proxy" : "",
       "noproxy" : "NoProxy amerigo.ideasolutions.it\r\nNoProxy webserver.ideasolutions.it"
     }, {
-      "ruleid" : "17e3a196-8ded-436d-88d9-7187517daea8",
-      "owner" : "ArchLab.test",
-      "to" : "hortonworks.com",
-      "test" : "http://public-repo-1.hortonworks.com/ambari/centos6",
-      "method" : "GET/POST",
-      "proxy" : "<Proxy https://*.hortonworks.com/*>\nInclude /opt/cfpx/proxyallow.conf\nInclude /opt/cfpx/gzip-offload.conf\n</Proxy>\n<Proxy http://*.hortonworks.com/*>\nInclude /opt/cfpx/proxyallow.conf\nInclude /opt/cfpx/gzip-offload.conf\n</Proxy>",
-      "noproxy" : "NoProxy .hortonworks.com"
-    }, {
       "ruleid" : "9bf7c33f-abb1-407d-996e-90ff158e640f",
       "owner" : "BitDefender.test",
       "to" : "Bitdefender update",
