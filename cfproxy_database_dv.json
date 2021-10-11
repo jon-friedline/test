@@ -2560,6 +2560,14 @@
       "method" : "",
       "proxy" : "<Proxy \"http://smartpointpro-cloud.pp.travelport.com/*\">\nInclude /opt/cfpx/proxyallow.conf\nInclude /opt/cfpx/gzip-offload.conf\n</Proxy>",
       "noproxy" : "NoProxy smartpointpro-cloud.pp.travelport.com"
+    }, {
+      "ruleid" : "30217126-f5f9-498c-badd-61ac686fb6c6",
+      "owner" : "ArchLab.test",
+      "to" : "hortonworks.com",
+      "test" : "http://public-repo-1.hortonworks.com/ambari/centos6",
+      "method" : "GET/POST",
+      "proxy" : "<Proxy https://*.hortonworks.com/*>\r\nInclude /opt/cfpx/proxyallow.conf\r\nInclude /opt/cfpx/gzip-offload.conf\r\n</Proxy>\r\n<Proxy http://*.hortonworks.com/*>\r\nInclude /opt/cfpx/proxyallow.conf\r\nInclude /opt/cfpx/gzip-offload.conf\r\n</Proxy>\r\n",
+      "noproxy" : "NoProxy .hortonworks.com"
     } ]
   }, {
     "Offloads" : [ {
